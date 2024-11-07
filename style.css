@@ -1,0 +1,73 @@
+.gradient-background {
+  background: linear-gradient(300deg, #b6b8b6, #726a6a, #b6b8b6);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+  padding: 7% ;
+  height: 100vh;
+  
+  }
+
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+}
+
+
+.card{
+    background-color: whitesmoke;
+}
+
+h1{
+  font-family: "Alegreya", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+h3{
+    font-family: "Alegreya", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.game{
+    color: grey;
+}
+
+.img-h1 {
+  text-align: center;
+  height: 200px;
+  width: 770px;
+  overflow: auto;
+  margin-bottom: 20px;
+}
+.second{
+  padding: 7%;
+}
+
+.top{
+  margin: 7%;
+  background-color: rgb(243, 243, 247);
+  padding-bottom: 7%;
+  border-radius: 5%;
+}
+
+.pclass{
+  background-color: rgb(243, 243, 247);
+  padding-bottom: 7%;
+  border-radius: 5%;
+  padding: 7%;
+}
+
+.hclass3{
+  margin: 7%;
+  background-color: rgb(243, 243, 247);
+  padding-bottom: 7%;
+  border-radius: 5%
+}
